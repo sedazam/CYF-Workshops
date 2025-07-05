@@ -3,16 +3,16 @@
 // Check your prediction and explanation by running the code.
 
 const person1 = {
-    "name": "Abdi",
-    "location": "London",
-    "id_number": 17,
+  name: "Abdi",
+  location: "London",
+  id_number: 17,
 };
 
 const person2 = {
-    "name": "Shadi",
-    "job": "Software Engineer",
-    "location": "London",
-    "id_number": 28,
+  name: "Shadi",
+  job: "Software Engineer",
+  location: "London",
+  id_number: 28,
 };
 
 const person3 = person2;
