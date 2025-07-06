@@ -3,21 +3,27 @@
 const people = [];
 
 people.push({
-    "name": "Saqib",
-    "favourite_food": "salad",
+  name: "Saqib",
+  favouriteFoods: "salad",
 });
 
 people.push({
-    "name": "Shadi",
-    "favourite_food": "mango",
+  name: "Shadi",
+  favouriteFoods: "mango",
 });
 
 people.push({
-    "name": "Navid",
-    "favourite_food": "macarons",
+  name: "Navid",
+  favouriteFoods: "macarons",
 });
 
-const favouriteFoods = [];
+// The array favouriteFoods was not defined yet.
+// It should be an array that contains the favourite foods of each person in the people array.
+const favouriteFoods = [
+  people[0].favouriteFoods,
+  people[1].favouriteFoods,
+  people[2].favouriteFoods,
+];
 
 // TODO: Fill the array favouriteFoods with the favourite foods of each person.
 // You must not type the strings (i.e. your solution should not involve you typing the word "salad").
